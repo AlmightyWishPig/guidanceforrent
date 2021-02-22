@@ -2,12 +2,12 @@
  .navbar {
     margin-bottom: 10px;
     border-radius: 0;
-    background-image: linear-gradient(to right, #4BCFDE, #EF6C00);
+    background-image: linear-gradient(to right, #EF6C00, #D4974C);
   }
   
   /* Set black background color, white text and some padding */
   footer {
-    background-image: linear-gradient(to right, #4BCFDE, #EF6C00);
+    background-image: linear-gradient(to right, #EF6C00, #D4974C);
     color:black;
     padding: 15px;
     margin-top: 10px;
