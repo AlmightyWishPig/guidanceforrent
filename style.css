@@ -5,22 +5,6 @@
   background-image: linear-gradient(to right, #ef6c00, #d4974c);
 }
 
-/* Set black background color, white text and some padding */
-footer {
-  background-image: linear-gradient(to right, #ef6c00, #d4974c);
-  color: black;
-  padding: 15px;
-  margin-top: 10px;
-}
-
-.dropdown-toggle::after {
-  transition: transform 0.15s linear;
-}
-
-.show.dropdown .dropdown-toggle::after {
-  transform: translateY(3px);
-}
-
 /* Footer CSS */
 .footer__container {
   position: relative;
