@@ -5,6 +5,19 @@
   background-image: linear-gradient(to right, #ef6c00, #d4974c);
 }
 
+.dropdown-toggle::after{
+overflow:visible;
+zoom:1.0;
+}
+
+.show.dropdown .dropdown-toggle::after{
+content:" ";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
 /* Footer CSS */
 .footer__container {
   position: relative;
