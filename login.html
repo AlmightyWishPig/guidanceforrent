@@ -52,11 +52,11 @@ crossorigin="anonymous">
 	
 	<form action="" method="post">
 	  <div class="container">
-		<label for="uname"><b>Username</b></label>
-		<input type="text" placeholder="Enter Username" name="uname" required>
+		<label for="uname"><b>Email Address</b></label>
+		<input type="text" placeholder="Enter Email Address" name="username" required>
 
 		<label for="psw"><b>Password</b></label>
-		<input type="password" placeholder="Enter Password" name="psw" required>
+		<input type="password" placeholder="Enter Password" name="pswd" required>
 
 		<button type="submit">Login</button>
 		<label>
@@ -65,7 +65,7 @@ crossorigin="anonymous">
 	  </div>
 
 	  <div class="container" style="background-color:#f1f1f1">
-		<button type="button" class="signupbutton">Sign Up</button>
+		<button type="button" class="signupbutton" onclick="document.location='signup.html'">Sign Up</button>
 		<span class="psw"><a href="#">Forgot password?</a></span>
 	  </div>
 	</form>
