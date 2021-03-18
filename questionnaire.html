@@ -50,20 +50,31 @@
 
 	<!-- Body Section -->
 	<div class="question">
-		<h1>Please enter the start and end dates of your tenancy.</h1>
+		<h1>Please answer the following questions so we can get you appropriate legal advice:</h1>
 	</div>
 
 	<div class="answers">
 		<div class="answers__container">
 			<div class="submitdata__card">
 				<div class="start_date">
-					<label for="startdate"><b>Start Date</b></label>
-					<input type="date" placeholder="Enter Start Date" name="startdate" required>
+					<label for="startdate"><b>When did you tenancy begin:</b></label>
+					<input type="date" placeholder="Start Date" name="startdate" required>
+				</div>
+				<div class="rent_increase">
+					<label for="enddate"><b>When was first notice of the rent increase:</b></label>
+					<input type="date" placeholder="Notice of Rent Increase" name="rentincrease" required>
 				</div>
 				<div class="end_date">
-					<label for="enddate"><b>End Date</b></label>
-					<input type="date" placeholder="Enter End Date" name="enddate" required>
+					<label for="enddate"><b>When was the rent increase due:</b></label>
+					<input type="date" placeholder="Rent Due Date" name="duedate" required>
 				</div>
+				<label for="enddate"><b>Have you paid the rent increase yet:</b></label>
+				<form>
+				  <input type="radio" id="yes" name="paidincrease" value="yes">
+				  <label for="yes">Yes</label><br>
+				  <input type="radio" id="no" name="paidincrease" value="no">
+				  <label for="no">No</label><br>
+				</form>
 				<button type="submit" onclick="document.location='pathA.html'">
 					<a>Submit</a>
 				</button>
