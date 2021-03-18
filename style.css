@@ -439,3 +439,12 @@ body {
   transition: 0.2s ease-in;
   cursor: pointer;
 }
+
+.information {
+  display: flex;
+  background-color: #ef6c00;
+  justify-content: center;
+  color: #fff;
+  align-items: left	;
+  flex-direction: column;
+}
